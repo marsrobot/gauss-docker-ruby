@@ -1,0 +1,181 @@
+Started POST "/sum" for ::1 at 2020-11-01 11:28:40 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/sum"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/sum" for ::1 at 2020-11-01 11:32:50 -0500
+  
+Zeitwerk::NameError (expected file /mnt/sambashare/srv/public/gauss-docker-ruby/app/app/controllers/gauss_controller.rb to define constant GaussController, but didn't):
+  
+zeitwerk (2.4.1) lib/zeitwerk/loader/callbacks.rb:16:in `on_file_autoloaded'
+zeitwerk (2.4.1) lib/zeitwerk/kernel.rb:27:in `block in require'
+zeitwerk (2.4.1) lib/zeitwerk/kernel.rb:26:in `tap'
+zeitwerk (2.4.1) lib/zeitwerk/kernel.rb:26:in `require'
+activesupport (6.0.3.4) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.3.4) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.3.4) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.3.4) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.3.4) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.3.4) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.3.4) lib/action_dispatch/http/request.rb:89:in `controller_class_for'
+actionpack (6.0.3.4) lib/action_dispatch/http/parameters.rb:100:in `binary_params_for?'
+actionpack (6.0.3.4) lib/action_dispatch/http/parameters.rb:91:in `set_binary_encoding'
+actionpack (6.0.3.4) lib/action_dispatch/http/parameters.rb:69:in `path_parameters='
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:47:in `block in serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/sum" for ::1 at 2020-11-01 11:33:36 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+No template found for GaussController#sum, rendering head :no_content
+Completed 204 No Content in 7ms (Allocations: 641)
+
+
+Started POST "/sum" for ::1 at 2020-11-01 11:38:37 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+No template found for GaussController#sum, rendering head :no_content
+Completed 204 No Content in 7ms (Allocations: 641)
+
+
+Started POST "/sum" for ::1 at 2020-11-01 11:41:13 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+No template found for GaussController#sum, rendering head :no_content
+Completed 204 No Content in 9ms (Allocations: 641)
+
+
+Started POST "/sum" for ::1 at 2020-11-01 11:42:54 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+No template found for GaussController#sum, rendering head :no_content
+Completed 204 No Content in 18ms (Allocations: 641)
+
+
+Started POST "/sum" for ::1 at 2020-11-01 11:43:51 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+No template found for GaussController#sum, rendering head :no_content
+Completed 204 No Content in 20ms (Allocations: 641)
+
+
+Started POST "/sum" for ::1 at 2020-11-01 11:45:22 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+No template found for GaussController#sum, rendering head :no_content
+Completed 204 No Content in 19ms (Allocations: 641)
+
+
+Started POST "/sum" for ::1 at 2020-11-01 11:46:42 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+No template found for GaussController#sum, rendering head :no_content
+Completed 204 No Content in 21ms (Allocations: 641)
+
+
+Started POST "/sum" for ::1 at 2020-11-01 11:51:53 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+No template found for GaussController#sum, rendering head :no_content
+Completed 204 No Content in 19ms (Allocations: 641)
+
+
+Started POST "/sum" for ::1 at 2020-11-01 11:53:29 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+No template found for GaussController#sum, rendering head :no_content
+Completed 204 No Content in 19ms (Allocations: 641)
+
+
+Started POST "/sum" for ::1 at 2020-11-01 11:56:42 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+  Rendering gauss/sum.json.jbuilder
+  Rendered gauss/sum.json.jbuilder (Duration: 22.2ms | Allocations: 318)
+Completed 200 OK in 152ms (Views: 88.6ms | Allocations: 2070)
+
+
+Started POST "/sum" for ::1 at 2020-11-01 11:57:18 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+  Rendering gauss/sum.json.jbuilder
+  Rendered gauss/sum.json.jbuilder (Duration: 11.1ms | Allocations: 206)
+Completed 200 OK in 67ms (Views: 34.6ms | Allocations: 1367)
+
+
+Started POST "/sum" for 10.0.172.127 at 2020-11-01 13:14:40 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+  Rendering gauss/sum.json.jbuilder
+  Rendered gauss/sum.json.jbuilder (Duration: 12.2ms | Allocations: 206)
+Completed 200 OK in 74ms (Views: 36.9ms | Allocations: 1367)
+
+
+Started POST "/sum" for 10.0.1.1 at 2020-11-01 13:15:08 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+  Rendering gauss/sum.json.jbuilder
+  Rendered gauss/sum.json.jbuilder (Duration: 3.7ms | Allocations: 99)
+Completed 200 OK in 15ms (Views: 6.4ms | Allocations: 645)
+
+
+Started POST "/sum" for 10.0.1.1 at 2020-11-01 13:18:56 -0500
+Processing by GaussController#sum as */*
+  Parameters: {"x"=>11, "y"=>22, "gauss"=>{"x"=>11, "y"=>22}}
+  Rendering gauss/sum.json.jbuilder
+  Rendered gauss/sum.json.jbuilder (Duration: 11.2ms | Allocations: 206)
+Completed 200 OK in 67ms (Views: 34.3ms | Allocations: 1367)
+
+
